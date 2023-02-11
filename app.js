@@ -1,10 +1,10 @@
 require('dotenv').config()
-const express = require('express');
+const express = require('express')
 
-const app = express();
+const app = express()
 
-app.get('/',(req,res)=>{
-    res.send("<h1>Server is up and running</h1>")
+app.get("/", (req, res) => {
+    res.send("<h1>Server is working</h1>")
 })
 
 module.exports = app;
