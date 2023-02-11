@@ -24,7 +24,10 @@
 				"xabikos.JavaScriptSnippets",
 				"piyushvscode.nodejs-snippets",
 				"leizongmin.node-module-intellisense"
-			]
+			],
+			"settings": {
+				"editor.formatOnSave": true
+			}
 			
 		}
 		
